@@ -1,0 +1,16 @@
+/* livesalestable.css */
+
+.table thead th.headerCell {
+    background-color: rgba(17, 84, 110, 0.9);
+    color: white;
+    text-align: center;
+  }
+  
+  .table tbody tr.totalsRow td {
+    background-color: rgba(17, 84, 110, 0.9);
+    color: white;
+  }
+  
+  .table tbody tr td:first-child {
+    font-weight: 600;
+  }

@@ -1,0 +1,63 @@
+/* totals.css */
+
+.container {
+  overflow: hidden;
+  padding: 5%;
+  margin: auto;
+  margin-bottom: 1%;
+  text-align: center;
+  background-color: #f0f0f0;
+  height: 80px;
+  position: relative; /* Add relative positioning */
+}
+
+.heading {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: .1rem;
+  position: absolute; /* Add absolute positioning */
+  top: 27%; /* Adjust as needed */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center vertically and horizontally */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.total-profit {
+  top: 10%; /* Adjust as needed */
+}
+
+.total-revenue {
+  top: 30%; /* Adjust as needed */
+}
+
+.content {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.positivePercentage {
+  color: green;
+}
+
+.negativePercentage {
+  color: red;
+}
+
+.totalValue {
+  font-size: clamp(1rem, 2vw, 1.6rem); /* Adjust the preferred value (2.5vw) */
+  font-weight: 500;
+  margin-right: 1%;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.percentageDifference {
+  font-size: clamp(.8rem, 1.8vw, 1.2rem); /* Adjust the preferred value (1.8vw) */
+  margin-bottom: 1%;
+  margin-top: 2%;
+  overflow: hidden;
+}

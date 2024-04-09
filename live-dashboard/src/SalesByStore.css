@@ -1,0 +1,14 @@
+/* SalesByStore.css */
+
+.table thead th.headerCell {
+  background-color: rgba(17, 84, 110, 0.9);
+  color: white;
+  text-align: center;
+}
+
+/* Target only the header text for hover effect */
+.table-hover-effect thead th.headerCell:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
